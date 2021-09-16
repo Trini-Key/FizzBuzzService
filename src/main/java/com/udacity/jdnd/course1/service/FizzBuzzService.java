@@ -9,6 +9,7 @@ public class FizzBuzzService {
      *
      * @Throws IllegalArgumentException for values < 1
      */
+
     public String fizzBuzz(int number) {
         String result = "";
         if(number < 1){

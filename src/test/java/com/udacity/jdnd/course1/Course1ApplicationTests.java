@@ -9,6 +9,8 @@ import static org.junit.jupiter.api.Assertions.*;
 @SpringBootTest
 class Course1ApplicationTests {
 
+	//captures most cases but not all
+
 	@Test
 	void testFizzBuzz(){
 		FizzBuzzService fbs = new FizzBuzzService();
